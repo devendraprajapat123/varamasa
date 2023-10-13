@@ -1,9 +1,9 @@
 
 import { useState } from "react";
-import { Button, Container, Nav, Navbar, Offcanvas } from "react-bootstrap";
+import { Button,  Nav, Navbar, Offcanvas } from "react-bootstrap";
 import { LinkContainer } from "react-router-bootstrap";
-import { BsFillGrid3X3GapFill, BsFillDatabaseFill, BsPercent, BsBook, BsAlarmFill,BsHeadphones,BsFileEarmarkSpreadsheetFill } from "react-icons/bs";
-import { AiFillBank, AiOutlineTransaction, AiFillHome, AiFillFileExclamation } from "react-icons/ai";
+import { BsFillGrid3X3GapFill, BsFillDatabaseFill,BsJournalBookmarkFill, BsPercent, BsBook, BsAlarmFill,BsHeadphones,BsFillArrowUpRightSquareFill } from "react-icons/bs";
+import { AiFillBank, AiOutlineFieldTime,AiOutlineTransaction, AiFillHome, AiFillFileExclamation,AiOutlineBook,AiFillYoutube,AiOutlineUsergroupDelete} from "react-icons/ai";
 
 
 
@@ -42,9 +42,9 @@ export function Header() {
                             <Nav.Link href="#pricing"><BsPercent /> &nbsp;GST Returns</Nav.Link>
                             <Nav.Link href="#pricing"><BsPercent />&nbsp;TDS/TCS</Nav.Link>
                             <Nav.Link href="#pricing"><BsBook />&nbsp;Transaction Reports</Nav.Link>
-                            <Nav.Link href="#pricing">Financial Reports</Nav.Link>
-                            <Nav.Link href="#pricing">Payroll</Nav.Link>
-                            <Nav.Link href="#pricing">Day End</Nav.Link>
+                            <Nav.Link href="#pricing"><AiOutlineBook/>&nbsp;Financial Reports</Nav.Link>
+                            <Nav.Link href="#pricing"><BsJournalBookmarkFill/>&nbsp;Payroll</Nav.Link>
+                            <Nav.Link href="#pricing"><AiOutlineFieldTime/>&nbsp;Day End</Nav.Link>
 
                         </Nav>
 
@@ -68,9 +68,10 @@ export function Header() {
                     <div><BsHeadphones/></div>&nbsp;&nbsp;&nbsp;
                     <div><AiFillFileExclamation /></div>&nbsp;&nbsp;&nbsp;
                     <div><BsAlarmFill /></div>&nbsp;&nbsp;&nbsp;
-                    <div></div>
-                    <div></div>
-
+                    <div><BsFillArrowUpRightSquareFill/></div>&nbsp;&nbsp;&nbsp;
+                    <div><AiOutlineBook/></div>&nbsp;&nbsp;&nbsp;
+                    <div><AiFillYoutube/></div>&nbsp;&nbsp;&nbsp;
+                    <div><AiOutlineUsergroupDelete/></div>
 
                 </div>
 

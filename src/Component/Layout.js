@@ -1,12 +1,12 @@
 import { Footer } from "./Footer";
 import { Header } from "./Header";
 
-export function Layout() {
+export function Layout({ children }) {
     return (
         <>
             <Header />
-            <main style={{ minHeight: "70vh" }}></main>
-            <Footer/>
+            <main style={{ minHeight: "70vh" }}>{children}</main>
+            <Footer />
         </>
     )
 

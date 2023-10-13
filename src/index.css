@@ -21,5 +21,10 @@
 
 .headerrrow2{
   display: flex;
-  margin-left: 30px;
+  
+}
+
+.hightlight{
+border: 1px solid !important;
+border-radius: 2px !important;
 }
